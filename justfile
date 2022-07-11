@@ -3,7 +3,7 @@ default:
 
 build-image:
   docker pull jenkins/jenkins:lts
-  docker build jenkins -t local-jenkins
+  docker build Jenkins -t local-jenkins
 
 launch-jenkins: build-image
   docker rm -f demo-jenkins
