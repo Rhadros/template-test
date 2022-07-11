@@ -15,7 +15,7 @@ create libName:
   mkdir -p libraries/{{libName}}/steps
 
 watch:
-  git checkout -N demo-branch
+  git checkout -B demo-branch
   watchexec --exts groovy just commit
 
 commit:
