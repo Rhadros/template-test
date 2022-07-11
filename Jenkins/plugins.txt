@@ -24,3 +24,5 @@ workflow-job:1203.v7b_7023424efe
 workflow-scm-step:400.v6b_89a_1317c9a_
 workflow-step-api:625.vd896b_f445a_f8
 workflow-support:833.va_1c71061486b_
+configuration-as-code-groovy:1.1
+configuration-as-code:1466.v2d4119502006

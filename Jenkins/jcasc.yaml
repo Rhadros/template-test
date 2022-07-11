@@ -2,14 +2,14 @@ unclassified:
   templateGlobalConfig:
     tier:
       configurationProvider: "null"
-      libraryScources:
+      librarySources:
       - libraryProvider:
           scm:
             baseDir: "libraries"
             scm:
               git:
                 branches:
-                  - name: "*/demo-branch"
-                  buildChooser: "default"
-                  userRemoteConfigs:
-                    - url: "file:///libraries"
+                - name: "*/demo-branch"
+                buildChooser: "default"
+                userRemoteConfigs:
+                - url: "file:///libraries"
